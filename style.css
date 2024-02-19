@@ -203,12 +203,13 @@ h{
     color:rgb(236, 204, 143);
     font-weight: bold;
 }
-.code-container .code-line {
-    display: inline; 
-    padding: 5px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    margin-right: 10px; 
-  }
+
+.contact-box {
+    padding: 10px 80px;
+    border-radius:10px;
+    background:rgb(160, 69, 69);
+    background-image: none;
+    
+}
 
 
