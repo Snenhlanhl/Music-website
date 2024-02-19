@@ -30,13 +30,10 @@ span {
     flex-direction: column;
     background-image:url('https://th.bing.com/th/id/OIP.aOTiVoErn-TyB0oim-tN1AHaEo?rs=1&pid=ImgDetMain');
     background-size: cover;
-    margin-bottom: 200px;
-    padding-bottom: 100px;
-
-
-
-    
+    margin-bottom: 60px; 
+    padding-bottom: 120px;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -150,35 +147,40 @@ line7 {
     }
 }
 form {
-    background:grey;
+    
     border-radius: 25px;
     position:relative;
+    text-align: center;
+    
+    
 
 }
 input {
-    width: 100%;
-    height:100%;
+    width: 160%;
+    height: 100%;
     display: block;
     border-radius: 25px;
-    font-size:20px;
-    padding: 8px 40px 8px 20px;
-    border:none;
+    font-size: 20px;
+    padding: 8px 40px 8px 20px; 
+    border: none;
     box-shadow: 0 5px 8px 3px black;
 }
+
 input:focus {
     outline: none;
 }
-button{
-    position: absolute;
-    top: 0;
-    width: 50px;
-    height: 100%;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-    background: none;
-    font-size: 18px;
-}
+
+button {
+        position:absolute;
+        top: 50%; 
+        left:8px;
+        transform: translateY(-50%); 
+        border: none;
+        background: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
 button i{
     color:blue;
 
@@ -186,4 +188,27 @@ button i{
 button:hover {
     color:aquamarine;
 }
+.free {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: -30px; 
+    background-image: none;
+    margin-bottom: 30px;
+}
+h{
+    font-size:20px;
+    color:rgb(236, 204, 143);
+    font-weight: bold;
+}
+.code-container .code-line {
+    display: inline; 
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-right: 10px; 
+  }
+
 
