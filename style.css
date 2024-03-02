@@ -30,6 +30,7 @@ span {
     flex-direction: column;
     background-image:url('https://th.bing.com/th/id/OIP.aOTiVoErn-TyB0oim-tN1AHaEo?rs=1&pid=ImgDetMain');
     background-size: cover;
+
     margin-bottom: 60px; 
     padding-bottom: 120px;
 }
@@ -205,11 +206,66 @@ h{
 }
 
 .contact-box {
-    padding: 10px 80px;
+    padding: 10px 10px;
+    
+
     border-radius:10px;
     background:rgb(160, 69, 69);
     background-image: none;
     
 }
+h2 {
+    font-size:40px;
+    color: rgb(236, 204, 143);
+    font-weight: bold;
+}
+.labe {
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.label{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding-bottom: 15px;
+    border-radius: none;
+    padding-bottom: none;
+    margin-bottom: 5px;
+}
+.input-box input{
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+}
+  
+  .input-box {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    margin-bottom: 20px;
+    
+  }
+  @media (max-width: 900px){
+    h1{
+        font-size:44;
+    }
 
+
+  }
+
+    
 
