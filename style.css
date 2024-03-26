@@ -8,6 +8,7 @@ h1 {
     font-weight: bold;
     text-align: start;
     display: block;
+
 }
 .wrapped {
     width: 500px;
@@ -30,10 +31,13 @@ span {
     flex-direction: column;
     background-image:url('https://th.bing.com/th/id/OIP.aOTiVoErn-TyB0oim-tN1AHaEo?rs=1&pid=ImgDetMain');
     background-size: cover;
-
     margin-bottom: 60px; 
     padding-bottom: 120px;
+    
 }
+
+
+
 
 .row {
     display: flex;
@@ -46,7 +50,6 @@ span {
     margin:40px;
 
 }
-
 
 .line1 {
     background-color:blanchedalmond;
@@ -153,8 +156,6 @@ form {
     position:relative;
     text-align: center;
     
-    
-
 }
 input {
     width: 160%;
@@ -207,17 +208,23 @@ h{
 
 .contact-box {
     padding: 10px 10px;
-    
-
     border-radius:10px;
     background:rgb(160, 69, 69);
     background-image: none;
-    
+    margin-top: 10px;
+    word-wrap: break-word; 
+    width: 90%;
+    position: relative;
+    z-index: 1;
+       
 }
 h2 {
     font-size:40px;
+    
     color: rgb(236, 204, 143);
     font-weight: bold;
+    display: block;
+    
 }
 .labe {
     max-width: 650px;
@@ -257,15 +264,190 @@ h2 {
   
   .btn {
     margin-bottom: 20px;
+     height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size: 16px;
+    outline: none;
     
   }
-  @media (max-width: 900px){
+  @media (min-width: 400px){
     h1{
-        font-size:44;
+        font-size:34px;
+        
     }
+  }
+@media (min-width:400px){
+    h1{
+        font-size:5rem;
+    }
+}
+@media (min-width:250px) {
+    h1{
+        font-size: 18px;
+    }
+}
+@media (min-width:250px) {
+    h1{
+        font-size:3rem;
+    }
+}
 
+.col {
+    padding: 2rem; 
+    margin: 2rem;
+}
+.label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.input-box {
+    width: 45%; 
+}
+p {
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .contact-box {
+        position: relative; 
+        margin-top: 150px; 
+        
+    }
+    
+}
+
+@media (max-width: 950px) {
+    .contact-box {
+    margin-top: 10px;
+    position:relative;
+    }
+}
+
+@media (min-width: 390px) {
+    .contact-box {
+        position: ralative;
+        margin-top: 200px;
+    }
+} 
+@media (min-width: 210px) {
+    .contact-box {
+        position: ralative;
+        margin-top: 180px;
+    }
+} 
+@media (min-width: 890px) {
+    .contact-box {
+        position: ralative;
+        margin-top: 20px;
+    }
+} 
+
+@media (max-width:768px) {
+    .container {
+        background-image: none;
+    } 
+} 
+
+/* images adjustment*/
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-container img {
+    margin: 5px; /* Add margin between images */
+    max-width: calc(50% - 10px); /* Calculate the max-width with margin */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for small screens */
+  @media screen and (min-width: 250px) {
+    .image-container img {
+      max-width: calc(200% - 10px); /* Two images per row */
+    }
   }
 
+@media screen and (min-width:700px) {
+    .image-container img {
+        max-width: calc(300% - 20px);
+    }
+} 
+
+
+/*working on the button*/
+
+@media screen and (min-width: 200px) {
+    input[type="text-s"] {
+      width: 250px; /* Adjust width for larger screens */
+    }
+  }
+  @media screen and (min-width: 690px) {
+    input[type="text-s"] {
+        width: 500px;
+    }
+  }
+  audio {
+    width:300px;
+    height:54px;
+    
+  }
+  .audio-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+/*.content {
+    font-size: 24px;
+  
+}*/
+h2{
+    font-size: 44px;
+}
+
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+    
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
